@@ -4,7 +4,7 @@
   "scope": {
     "product": "XSFiNE",
     "appVersion": "0.5.0",
-    "description": "Fixed upstream PDF package source and license acquisition material only; does not attest full application compliance."
+    "description": "Source snapshots, license texts, and package metadata for the listed third-party components used by XSFiNE."
   },
   "upstreamSnapshot": {
     "repository": "https://github.com/toeverything/pdfium-builder",
@@ -17,7 +17,7 @@
     "modifiedFiles": [],
     "excludedFiles": [],
     "rootLicenseFilePresent": false,
-    "licenseEvidence": "Each of the three published package manifests declares MPL-2.0; no blanket license grant is asserted for every upstream file."
+    "licenseEvidence": "The three published package manifests declare MPL-2.0. Other upstream files retain their original license notices."
   },
   "packages": [
     {
@@ -83,13 +83,13 @@
       "path": "licenses/MPL-2.0.txt",
       "sourceUrl": "https://www.mozilla.org/media/MPL/2.0/index.txt",
       "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04",
-      "status": "Official MPL-2.0 text; applies according to upstream notices and package declarations, not a root license for all repository content."
+      "status": "MPL-2.0 license text for files covered by upstream MPL notices and package declarations."
     },
     {
       "path": "licenses/reference/PDFium-chromium-6666-LICENSE.txt",
       "sourceUrl": "https://pdfium.googlesource.com/pdfium/+/94fb006b18bec0f1c18fa0d1692214a46ab88442/LICENSE?format=TEXT",
       "sha256": "1fe9dea718fbd75cf149adaf4d8a22a4335604d964ddb76d1b45383dec8668c9",
-      "status": "Reference only: license at the resolved default build branch. Not verified as the license closure of the published WASM."
+      "status": "License text for the specified PDFium reference commit; not a complete license inventory for the npm WASM binary."
     }
   ],
   "pdfiumBinaryProvenance": {

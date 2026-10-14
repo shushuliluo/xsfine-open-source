@@ -1,13 +1,27 @@
-# PDF 组件许可与源码通知
+# 第三方组件许可通知
 
-本通知对应 `@toeverything/pdfium@0.1.1`、`@toeverything/pdf-viewer@0.1.1`、`@toeverything/pdf-viewer-types@0.1.1`。npm 包的作者字段为 `toeverything`，三个包的许可字段均为 `MPL-2.0`。原始上游版权、免责声明及许可通知保留在 `vendor/pdfium-builder/`；本仓不新增或替换其版权归属。
+本通知适用于以下组件：
 
-对于上游声明 MPL-2.0 的 Covered Software，以下为该许可证 Exhibit A 的通知：
+- `@toeverything/pdfium`，版本 `0.1.1`
+- `@toeverything/pdf-viewer`，版本 `0.1.1`
+- `@toeverything/pdf-viewer-types`，版本 `0.1.1`
+
+三个组件的 npm 发布信息均标明作者为 `toeverything`，许可证为 `MPL-2.0`。各文件中的原始版权、许可声明和免责声明保留在 [源码目录](vendor/pdfium-builder) 中。
+
+## Mozilla Public License 2.0
+
+对于上游采用 MPL-2.0 授权的源码，适用以下通知：
 
 > This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
-许可正文见 `licenses/MPL-2.0.txt`。接收方的源码权利依 MPL-2.0 保留；本通知不限制该权利，不将许可证扩大至没有此授权的其他文件。
+[阅读 MPL-2.0 全文](licenses/MPL-2.0.txt)。你可以依照该许可证获取、使用、修改和分发其覆盖的源码；本通知不减少或替代许可证赋予你的权利。
 
-源码保存在 `vendor/pdfium-builder/`，固定上游提交为 `858b43b88a030c2aff1d44908deadb9443032500`，获取地址与校验值见 `SOURCE-MANIFEST.json` 和 `README.md`。本仓未修改固定快照的文件。
+## 获取源码
 
-`licenses/reference/PDFium-chromium-6666-LICENSE.txt` 是 PDFium 默认构建候选分支所解析固定提交的原始许可，仅作来源核对参考。它不是三个发布包生成产物的已确定许可闭包。底层源码 revision、构建依赖和第三方许可仍待上游确认。
+源码位于 [vendor/pdfium-builder](vendor/pdfium-builder)，上游提交为 [`858b43b88a030c2aff1d44908deadb9443032500`](https://github.com/toeverything/pdfium-builder/tree/858b43b88a030c2aff1d44908deadb9443032500)，未经修改。下载地址、发布包元数据与校验值见 [SOURCE-MANIFEST.json](SOURCE-MANIFEST.json)。
+
+## PDFium 及其他依赖
+
+PDFium 引擎及其依赖按各自许可证授权，不能统一视为 MPL-2.0 组件。
+
+[PDFium 许可参考文本](licenses/reference/PDFium-chromium-6666-LICENSE.txt) 来自官方提交 `94fb006b18bec0f1c18fa0d1692214a46ab88442`，对应上游构建脚本默认分支。该文本仅描述这一参考版本，不代表 npm WASM 发布文件中全部依赖的许可证清单。源码与构建环境的覆盖范围见 [README](README.md#源码范围)。
