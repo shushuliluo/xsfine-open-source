@@ -34,13 +34,19 @@ f1e81f940ba683a6ba9ca776e94a5d1883a45d4ec0276b52f1a6b0ba69bbfd04
 
 组件的授权条款、版权声明及源码获取说明见 [NOTICE.md](NOTICE.md)；MPL-2.0 全文见 [licenses/MPL-2.0.txt](licenses/MPL-2.0.txt)。使用、修改或分发组件时，请遵守对应文件及组件的许可证。第三方组件的版权归各自权利人所有。
 
+## AFFiNE 原生公共组件
+
+[`vendor/affine-native/`](vendor/affine-native/) 提供 AFFiNE `affine_common` crate 的原始源码，来自固定提交 [`4a7c931ecaf140adfb265962b1e92a465781b143`](https://github.com/toeverything/AFFiNE/tree/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native)。该目录完整保留上游 `packages/common/native/` 的 48 个文件，包括测试素材，未作修改。
+
+该组件的[原始许可](vendor/affine-native/LICENSE)对随 AFFiNE Community Edition 分发的部分适用 MPL-2.0；[MPL 正文](licenses/AFFiNE-native-MPL-2.0.txt)一并提供。其他部分仍按原始许可的范围处理。本目录只包含 `affine_common`，不包含整个 Electron 应用或其他原生 crate。来源及逐文件校验值见 `SOURCE-MANIFEST.json` 的 `nativeSources`。
+
 ## 字体许可
 
 Inter、Kalam、Poppins 等字体的版权与完整 OFL 文本见[字体许可目录](licenses/fonts)。该目录提供许可通知，不包含字体文件。
 
 ## 源码范围
 
-这里收录的是 `pdfium-builder` 项目及其三个 npm 包对应的上游源码快照。PDFium 引擎源码和构建工具链由上游构建脚本另行获取，不包含在这个快照中。
+上述 PDF 源码目录收录的是 `pdfium-builder` 项目及其三个 npm 包对应的上游源码快照。PDFium 引擎源码和构建工具链由上游构建脚本另行获取，不包含在这个快照中。
 
 上游脚本默认使用 `chromium/6666`；该默认分支不能确定 npm 发布的 WASM 二进制实际采用的 PDFium 提交、依赖和工具链版本。因此，此快照不提供该 WASM 二进制的完整可复现构建环境。详细版本信息见 [来源清单](SOURCE-MANIFEST.json#pdfiumBinaryProvenance)。
 

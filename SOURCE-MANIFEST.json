@@ -483,5 +483,356 @@
         "sha256": "8e4ee42b2553e1e01504e61cb0d46d148cd8c9e5eacaa3622a7df2d4f2955b9f"
       }
     ]
+  },
+  "nativeSources": {
+    "repository": "https://github.com/toeverything/AFFiNE",
+    "commit": "4a7c931ecaf140adfb265962b1e92a465781b143",
+    "upstreamSubtree": "packages/common/native",
+    "upstreamTree": "cd14d6ecb7e1284e2e53b6f7ebe05bed5eeca3da",
+    "directory": "vendor/affine-native",
+    "fileCount": 48,
+    "completeOriginalSubtree": true,
+    "modifiedFiles": [],
+    "licenseFile": "vendor/affine-native/LICENSE",
+    "mplText": "licenses/AFFiNE-native-MPL-2.0.txt",
+    "licenseScope": "The original upstream license applies MPL-2.0 to portions distributed as AFFiNE Community Edition. The original license is preserved.",
+    "files": [
+      {
+        "path": "vendor/affine-native/Cargo.toml",
+        "bytes": 1157,
+        "gitBlob": "fcb7517bbca87151957e11614e75a2311f87292d",
+        "sha256": "362d80e8252a2dc086c8f26f387027326ee1b8e64a98ee532b856bd47b87f466",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/Cargo.toml"
+      },
+      {
+        "path": "vendor/affine-native/LICENSE",
+        "bytes": 2758,
+        "gitBlob": "053ad06aa04a5c6676ca1d31cfcb53cf8ebc59d3",
+        "sha256": "5a644f9defc017ffd484413598d1edf65bc78718e4011ac33a0e1fcae629e25d",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/LICENSE"
+      },
+      {
+        "path": "vendor/affine-native/benches/hashcash.rs",
+        "bytes": 720,
+        "gitBlob": "c575d22a90d935ebe36201d47ef5ab2d9ce572a3",
+        "sha256": "cb117b18982d0a9908524e88e76a2340fb96037e926bb44a2613ecf478ca30ae",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/benches/hashcash.rs"
+      },
+      {
+        "path": "vendor/affine-native/fixtures/demo.docx",
+        "bytes": 1311881,
+        "gitBlob": "b172c4395d9abab1a8e83ec1e4ad521c5ae19e21",
+        "sha256": "269329fc7ae54b3f289b3ac52efde387edc2e566ef9a48d637e841022c7e0eab",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/fixtures/demo.docx"
+      },
+      {
+        "path": "vendor/affine-native/fixtures/demo.docx.0.md",
+        "bytes": 11585,
+        "gitBlob": "72f95e073588950f227753eca8c804e52724384d",
+        "sha256": "0da757700395b67154d6606afdd7f135f97f6febc84efef247aead077f6b1f96",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/fixtures/demo.docx.0.md"
+      },
+      {
+        "path": "vendor/affine-native/fixtures/demo.docx.md",
+        "bytes": 11586,
+        "gitBlob": "ed9a5de54ca889a8752d5aa72b7d6b0e4adf59d2",
+        "sha256": "5fc1fd3468afb9cd0761b0d6c2018f9f72ae0d62e1a118aba9e2134783b10a49",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/fixtures/demo.docx.md"
+      },
+      {
+        "path": "vendor/affine-native/fixtures/demo.ydoc",
+        "bytes": 38568,
+        "gitBlob": "66495a30c863e422325a857b942216d81dcd029f",
+        "sha256": "4a29d0742edc43d8f1ad20eb2247d37d1817d41b2454bdf5cbe4f17a60da05a1",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/fixtures/demo.ydoc"
+      },
+      {
+        "path": "vendor/affine-native/fixtures/demo.ydoc.json",
+        "bytes": 20346,
+        "gitBlob": "f6834ff1da83b26d4a2b9e3781753a8337d5705f",
+        "sha256": "04d14b0533b52c419f120c99c3b1a618a864d91ad31cca84ea16e2f6013854fe",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/fixtures/demo.ydoc.json"
+      },
+      {
+        "path": "vendor/affine-native/fixtures/sample.c",
+        "bytes": 80,
+        "gitBlob": "77c595c915f00c05f985012e27e87c3907b3a2a2",
+        "sha256": "f7586a134d1e194cfc1d9b23d259d0a49018230fac11f586e1eff15a3d415146",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/fixtures/sample.c"
+      },
+      {
+        "path": "vendor/affine-native/fixtures/sample.c.0.md",
+        "bytes": 18,
+        "gitBlob": "6724ae374ef02f151f5433c5cef7fec75603f15c",
+        "sha256": "1e839e32685d525d4c1965f9ba99267582bb562cbb1d9eba94b1c8058cde2f2e",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/fixtures/sample.c.0.md"
+      },
+      {
+        "path": "vendor/affine-native/fixtures/sample.c.1.md",
+        "bytes": 59,
+        "gitBlob": "ff6b43ab59865efa2db44705bc60bffd4114c8c1",
+        "sha256": "871e959448f063d0e38fe309584518c40a390c959ef519eb5cf1b1a291f15efe",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/fixtures/sample.c.1.md"
+      },
+      {
+        "path": "vendor/affine-native/fixtures/sample.html",
+        "bytes": 18113,
+        "gitBlob": "1a8b38f01d5518386fcc3d21f94d9cd633c09b62",
+        "sha256": "8d7f2c614af1e5e4e21e84de0f65d7533df6c119af0f44c01bda0de18927f71a",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/fixtures/sample.html"
+      },
+      {
+        "path": "vendor/affine-native/fixtures/sample.html.0.md",
+        "bytes": 218,
+        "gitBlob": "b722328f91fbc8e045d9d8649d71963d18d3c183",
+        "sha256": "565a947f392390609f277569791a6d344a51e9f1b57a96fab743ba7f55faf091",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/fixtures/sample.html.0.md"
+      },
+      {
+        "path": "vendor/affine-native/fixtures/sample.pdf",
+        "bytes": 18810,
+        "gitBlob": "c01805e89c1684e79130151abc23bb80401583a9",
+        "sha256": "229defbb0cee6f02673a5cde290d0673e75a0dc31cec43989c8ab2a4eca7e1bb",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/fixtures/sample.pdf"
+      },
+      {
+        "path": "vendor/affine-native/fixtures/sample.pdf.0.md",
+        "bytes": 3119,
+        "gitBlob": "9b21dc7dd093602f13de8cdb4d7dad1615aab294",
+        "sha256": "d2e7a73cd9e0895d0d57051586f3961c0bc0f9f4c0f7d82cbbd498022507d02e",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/fixtures/sample.pdf.0.md"
+      },
+      {
+        "path": "vendor/affine-native/fixtures/sample.pdf.1.md",
+        "bytes": 723,
+        "gitBlob": "3bb84cb1622428b29e49efb7d69c818446113f69",
+        "sha256": "266a8c4ad63d1fa38fbc17414c818815610729e3ada728918c022b5cff31c3ce",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/fixtures/sample.pdf.1.md"
+      },
+      {
+        "path": "vendor/affine-native/fixtures/sample.pdf.2.md",
+        "bytes": 1342,
+        "gitBlob": "bc1e6a26387da19205915cb6cbd7fc1db7146bf1",
+        "sha256": "3ee8df4f26394908618f35dc95b3c8ea5a5b922300b1cd50d47341524c91d59b",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/fixtures/sample.pdf.2.md"
+      },
+      {
+        "path": "vendor/affine-native/fixtures/sample.rs",
+        "bytes": 131,
+        "gitBlob": "20c7697ff9cb224a42c7979c4f694e7b2b9bbf44",
+        "sha256": "749bd885b4aa4217fa31ac474b6208330996d24202df5810790d071fbdb193ae",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/fixtures/sample.rs"
+      },
+      {
+        "path": "vendor/affine-native/fixtures/sample.rs.0.md",
+        "bytes": 86,
+        "gitBlob": "52e643352910a66099ead588911799974742b1d0",
+        "sha256": "8bfc11d50779a357541a6721577b04378639d5a9713231b8127adf962ffdcc22",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/fixtures/sample.rs.0.md"
+      },
+      {
+        "path": "vendor/affine-native/fixtures/sample.rs.1.md",
+        "bytes": 42,
+        "gitBlob": "0309b94864fdcd207e614f4e5bdd52c9c641f8b5",
+        "sha256": "3fd09d56a4809150d9bc53c8153ae4ddc918005b8ff088c9fb38bcef7dc6e906",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/fixtures/sample.rs.1.md"
+      },
+      {
+        "path": "vendor/affine-native/fixtures/sample.ts",
+        "bytes": 56,
+        "gitBlob": "0186fe8f8c619ca56c9b135ac151a3b5cdfbb3d5",
+        "sha256": "48b4de0c8407a988bc932579b5a70ae022397748b4ea0eb863cb2ae23731ad78",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/fixtures/sample.ts"
+      },
+      {
+        "path": "vendor/affine-native/fixtures/sample.ts.0.md",
+        "bytes": 55,
+        "gitBlob": "5887c490aa28c7d329f1ad3e99eb75a5e28820ec",
+        "sha256": "f5525fd134d8a545b863867ae8cdc55c3e0f19fe41c7511376a89ba50b42f58d",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/fixtures/sample.ts.0.md"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/block_spec.rs",
+        "bytes": 17334,
+        "gitBlob": "e0195bd689cfd81f426c46ae0fa2f4dc56a8a0f2",
+        "sha256": "b3212f7c78e2c6c9fbb72bae67f898d1e446e492638951cc27b2771c5ff3cbcb",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/block_spec.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/blocksuite.rs",
+        "bytes": 4395,
+        "gitBlob": "ad266b0b10cb06638809b167d5e499a534058e4e",
+        "sha256": "c436b64894f7c7756e81982d208845b3c5618e03ca5442283eaac36d9cb4ac2c",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/blocksuite.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/doc_loader.rs",
+        "bytes": 953,
+        "gitBlob": "10e2f210d72616da1bb877c800aeb20de85c3e18",
+        "sha256": "aa2c1ab6eb5d2ae01c06e09c1efa45cab8541e7cdc2273c788cfd6e5f48bacee",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/doc_loader.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/error.rs",
+        "bytes": 1138,
+        "gitBlob": "cf9aed4374f9bb31a65e30b7c4bec74e612cffab",
+        "sha256": "89243ba1ed2c0e87ab8f8e176700bdd6f2700ac0fa848b8a64a1b49e99c55d3c",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/error.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/markdown/delta.rs",
+        "bytes": 23534,
+        "gitBlob": "29a1d96f097454611b6e7b1a6e55b544f63b29e8",
+        "sha256": "8d5c03754ded180c13c9bac2b225abe261eeb29bdd2709505306851fc153691f",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/markdown/delta.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/markdown/inline.rs",
+        "bytes": 2220,
+        "gitBlob": "aa8d9b31d09f7a34539abb2c44ebb1bf95b62540",
+        "sha256": "2aa9b40ee36a6c025657e996918c7e60d71bc0aafccd0172f5f8a5752e2ad893",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/markdown/inline.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/markdown/mod.rs",
+        "bytes": 418,
+        "gitBlob": "0a036bc7c7f5f72f98b3ffaed4f4fe8dc6061a20",
+        "sha256": "3043cba47c9c764223a304ec9f96a8d6574b0efd259305a7e2a062976d5edcb3",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/markdown/mod.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/markdown/parser.rs",
+        "bytes": 49877,
+        "gitBlob": "efe6db07615fc36c2690a29c0db6fd5efe6dceb0",
+        "sha256": "37c37f6099a622f4ed71798384816786a76281ecc7228d84c8fbc40738f4c45f",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/markdown/parser.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/markdown/render.rs",
+        "bytes": 6815,
+        "gitBlob": "3bf70fe4dc97a04699746543faa675569f42b840",
+        "sha256": "061e259cd62d91c635a98f949fbcbd0b577ad76dc0cda88ecc1dcdb00a7cc2f7",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/markdown/render.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/mod.rs",
+        "bytes": 563,
+        "gitBlob": "df2b0a2e51708aa85d2b41de100a797f111a5e8c",
+        "sha256": "e1fd6f4071949cd88c3e5f4d76ef62d656c8316add70a3f32634b4df8652a761",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/mod.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/read/database.rs",
+        "bytes": 8471,
+        "gitBlob": "59cd8bdd178c59c37affa90f99d5b647d722be5a",
+        "sha256": "f30d1075d283b210803dde0d5d51a83c102db6daab5e2b8c17ae549fd519dc40",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/read/database.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/read/mod.rs",
+        "bytes": 31889,
+        "gitBlob": "78094679e2c67c3636c872d15cd64d74dddefa07",
+        "sha256": "29ed83f91686897691c77cdb974c891953ab932512b443d47c27bb0f7c5e6759",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/read/mod.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/roundtrip_tests.rs",
+        "bytes": 2075,
+        "gitBlob": "0418507f594ca292c652f8807ffd97d74ce6e9a1",
+        "sha256": "1d863b92c69c95831f88e3bf54ed10927912f8eac7c85081527820305faf65a2",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/roundtrip_tests.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/schema.rs",
+        "bytes": 2375,
+        "gitBlob": "f14b4fd993e89cff256b2de70e70e6e3bce23953",
+        "sha256": "bbddf566ab4d3c58550c4f37e4d97119b315996c7585584dd65d1cb5ce3336d7",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/schema.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/table.rs",
+        "bytes": 1869,
+        "gitBlob": "6b8241426acb4c60d72edfc60d6758fff8111ea5",
+        "sha256": "41a88f39d9ecf1f5325bf93bb961c743898007826184dda31e09024bc79022ef",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/table.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/value.rs",
+        "bytes": 3846,
+        "gitBlob": "8526f56ac95ab1edc9eb0ac655c5754f65c37ca8",
+        "sha256": "eb8b5c40af45bd7144c390f7d4cead72a321365b54d886ba6d385e9da57e04b2",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/value.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/write/builder.rs",
+        "bytes": 11932,
+        "gitBlob": "37b962ceaa325d6798452909eb72f03633fcf973",
+        "sha256": "dc218f9e16b81add2d45e8ee27e3ff72e02c0f20dbd013c31192fcc2fd3e137a",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/write/builder.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/write/create.rs",
+        "bytes": 9386,
+        "gitBlob": "c7d7022f6e325a683d05e333d8f80e497b0c296f",
+        "sha256": "365b3744577948505b3683246cdb24e3bb089126122f9747f1429a6c7edefba2",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/write/create.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/write/doc_meta.rs",
+        "bytes": 4542,
+        "gitBlob": "f988f01be7e5a70fe8ffd3475e623cdcff3c93e7",
+        "sha256": "20311e98ae64fd4062dccd9ac2e869ef5783ee4a43f758e585f7c0c5cbfc57fd",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/write/doc_meta.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/write/doc_properties.rs",
+        "bytes": 2818,
+        "gitBlob": "53f67dd043f1e2537863999ec9dd05af5915682c",
+        "sha256": "adc1adc500271587353bb4f95be018a0de5c4d680777a69fe30243519db831f9",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/write/doc_properties.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/write/mod.rs",
+        "bytes": 614,
+        "gitBlob": "17fe2ae00f301048c385ebeb34dcd1a90ab8615a",
+        "sha256": "fb3f6b0d1ebb799114bb1d63465d97d07dbd2aeeb4d89e0caff976cb62d7c74c",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/write/mod.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/write/root_doc.rs",
+        "bytes": 8807,
+        "gitBlob": "cf94c3582ba012a261a9cc530400d12b98a81bd0",
+        "sha256": "1154ff8a504974fbb2371d69edb78ce89326cbc868587a70ec06cbf7b812db4d",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/write/root_doc.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/doc_parser/write/update.rs",
+        "bytes": 21922,
+        "gitBlob": "ddf47e21eeea43f9de272a1a64ad376b7980279c",
+        "sha256": "25786019f7ba84faa26f23250a67bced407e927a9322a8a072c6a0ff54ec711a",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/doc_parser/write/update.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/hashcash.rs",
+        "bytes": 4858,
+        "gitBlob": "1c2354483c5fe44ce2a1aff303ca5dae2b81e7e0",
+        "sha256": "69c5de046ca6b3cc8d7b4d97eddc847be5c725432b578383551d6d6269f0a50e",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/hashcash.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/lib.rs",
+        "bytes": 144,
+        "gitBlob": "7185a108eda2f55010b1fef9e0f024da8249186f",
+        "sha256": "893569ab8d4665253dc429c09f80a9ec4f799f40f027d78a5d0e84eb81668144",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/lib.rs"
+      },
+      {
+        "path": "vendor/affine-native/src/napi_utils.rs",
+        "bytes": 575,
+        "gitBlob": "28b7babbd2e10a69c8e36260241c9af5c078b4f3",
+        "sha256": "c0d8317e77bf71049d96492f1c89bde3fc2d9e6220c9f8f969f0a1d4581ee756",
+        "source": "https://raw.githubusercontent.com/toeverything/AFFiNE/4a7c931ecaf140adfb265962b1e92a465781b143/packages/common/native/src/napi_utils.rs"
+      }
+    ]
   }
 }

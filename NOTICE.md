@@ -29,3 +29,11 @@ PDFium 引擎及其依赖按各自许可证授权，不能统一视为 MPL-2.0 �
 ## 字体
 
 字体按各自的 SIL Open Font License 1.1 授权。完整许可和版权记录见[字体许可目录](licenses/fonts)；它们不适用上面的 MPL-2.0 通知。具体字体是否包含于某一应用版本，以该版本随附的通知为准。
+
+## AFFiNE affine_common 原生组件
+
+Copyright (c) 2022-present TOEVERYTHING PTE. LTD. and its affiliates.
+
+对应源码在 [vendor/affine-native/](vendor/affine-native/)，上游固定提交为 `4a7c931ecaf140adfb265962b1e92a465781b143`，原路径为 `packages/common/native/`。原始许可保存在该目录的 [LICENSE](vendor/affine-native/LICENSE)：其 Community Edition 范围适用 MPL-2.0，其余范围继续依原始条款。MPL 正文见 [licenses/AFFiNE-native-MPL-2.0.txt](licenses/AFFiNE-native-MPL-2.0.txt)。
+
+该源码快照未作修改，保留原版权及许可通知。
