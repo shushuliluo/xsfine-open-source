@@ -1,0 +1,79 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
+permissions:
+  id-token: write
+  contents: write
+  pull-requests: write
+
+jobs:
+  prepare:
+    name: Prepare
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: ./.github/actions/setup-node
+
+      - name: Create Release Pull Request
+        id: changesets
+        uses: changesets/action@v1
+        with:
+          version: yarn ci:version
+          commit: 'chore: version packages'
+          title: 'chore: version packages'
+          createGithubReleases: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  publish:
+    name: Publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup PDFium
+        uses: ./.github/actions/setup-pdfium
+        with:
+          target_os: wasm
+          target_cpu: wasm
+          static_lib: true
+          enable_v8: false
+          debug: false
+
+      - name: Setup Node.js
+        uses: ./.github/actions/setup-node
+
+      - name: Build packages
+        run: |
+          yarn run test
+          yarn build:packages
+
+      - name: Publish to NPM
+        run: |
+          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
+          yarn config set npmAuthToken ${{ secrets.NPM_TOKEN }}
+          yarn ci:publish
+          rm ".npmrc"
+          yarn config unset npmAuthToken
+
+      - name: Get package version
+        run: |
+          PDF_VIEWER_VERSION=$(jq -r ".version" packages/pdf-viewer/package.json)
+          echo "PDF_VIEWER_RELEASE_TAG=v${PDF_VIEWER_VERSION}" >> "$GITHUB_ENV"
+
+      - name: Create GitHub release
+        id: release
+        uses: ncipollo/release-action@v1
+        with:
+          commit: main
+          tag: '${{ env.PDF_VIEWER_RELEASE_TAG }}'
+          token: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true

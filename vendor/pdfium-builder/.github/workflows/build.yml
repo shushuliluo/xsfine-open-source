@@ -1,0 +1,85 @@
+name: PDFium build
+
+on:
+  workflow_dispatch:
+    inputs:
+      # branch:
+      #   description: PDFium branch
+      #   required: false
+      #   default: main
+      version:
+        description: PDFium version
+        required: false
+        default: '6666'
+      target_os:
+        description: Target OS
+        type: choice
+        default: mac
+        options:
+          - android
+          - ios
+          - linux
+          - mac
+          - win
+          - wasm
+      target_cpu:
+        description: Target CPU
+        type: choice
+        default: arm64
+        options:
+          - arm
+          - arm64
+          - x64
+          - x86
+          - wasm
+      target_environment:
+        description: Target environment
+        type: choice
+        default: ''
+        options:
+          - ''
+          - device
+          - catalyst
+          - simulator
+          - musl
+      static_lib:
+        description: Static Library
+        type: boolean
+        required: false
+        default: true
+      debug:
+        description: Debug
+        type: boolean
+        required: false
+        default: false
+      enable_v8:
+        description: Enable V8
+        type: boolean
+        required: false
+        default: false
+      emsdk_version:
+        description: Emscripten SDK
+        type: string
+        required: false
+        default: 3.1.69
+
+jobs:
+  build:
+    name: Build - ${{ github.event.inputs.target_os }} ${{ github.event.inputs.target_cpu }} ${{ github.event.inputs.target_environment }}
+    outputs:
+      artifact: ${{ steps.init.outputs.artifact }}
+    runs-on: ${{ (github.event.inputs.target_os == 'ios' || github.event.inputs.target_os == 'mac') && 'macos-latest' || github.event.inputs.target_os == 'win' && 'windows-2022' || 'ubuntu-22.04' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ./.github/actions/setup-pdfium
+        with:
+          # branch: ${{ github.event.inputs.branch }}
+          version: ${{ github.event.inputs.version }}
+          target_os: ${{ github.event.inputs.target_os }}
+          target_cpu: ${{ github.event.inputs.target_cpu }}
+          target_environment: ${{ github.event.inputs.target_environment }}
+          enable_v8: ${{ github.event.inputs.enable_v8 == 'true' }}
+          emsdk_version: ${{ github.event.inputs.emsdk_version }}
+          static_lib: ${{ github.event.inputs.static_lib == 'true' }}
+          debug: ${{ github.event.inputs.debug == 'true' }}

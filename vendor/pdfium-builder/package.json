@@ -1,0 +1,44 @@
+{
+  "name": "pdfium-builder",
+  "private": true,
+  "packageManager": "yarn@4.5.0",
+  "workspaces": [
+    "packages/*",
+    "examples/sample",
+    "examples/sample-pdf-viewer",
+    "examples/sample-wasm-bindgen"
+  ],
+  "scripts": {
+    "test": "yarn workspace @toeverything/pdf-viewer test",
+    "build:packages": "yarn workspace @toeverything/pdf-viewer build",
+    "lint:prettier": "prettier --ignore-unknown --cache --check .",
+    "lint:prettier:fix": "prettier --ignore-unknown --cache --write .",
+    "ci:version": "changeset version && yarn install --no-frozen-lockfile",
+    "ci:publish": "yarn build:packages && yarn workspaces foreach -Ap --no-private npm publish --tolerate-republish --access public --tag latest",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*": "prettier --write --ignore-unknown --cache",
+    "*.{ts,tsx,mjs,js,jsx}": [
+      "prettier --ignore-unknown --write",
+      "cross-env NODE_OPTIONS=\"--max-old-space-size=8192\" eslint --cache --fix"
+    ],
+    "*.toml": [
+      "taplo format"
+    ],
+    "*.rs": [
+      "cargo fmt --"
+    ]
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.9",
+    "@taplo/cli": "^0.7.0",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.9",
+    "vitest": "^2.1.3"
+  }
+}
