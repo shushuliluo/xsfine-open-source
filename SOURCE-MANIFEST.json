@@ -430,5 +430,58 @@
       "bytes": 156382,
       "sha256": "ee66fe80c1fe7f83713da049502fac1e962d650a85b7e2e91eb2f939261b13cc"
     }
-  ]
+  ],
+  "fontLicenseNotices": {
+    "directory": "licenses/fonts",
+    "files": [
+      {
+        "path": "licenses/fonts/COPYRIGHT.txt",
+        "sha256": "d26d513177ea58208ccd7f4b01a1a0be66fd435f7b5ecb16eb6bf32750abc4cb"
+      },
+      {
+        "path": "licenses/fonts/bebas-neue/OFL.txt",
+        "sha256": "72082f6cb4d04be2ecf7cc7d9e1e7d73787f0af8a5a278a47cade70c16b78341"
+      },
+      {
+        "path": "licenses/fonts/ibm-plex-mono/OFL.txt",
+        "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+      },
+      {
+        "path": "licenses/fonts/inter/OFL.txt",
+        "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+      },
+      {
+        "path": "licenses/fonts/inter-legacy/OFL.txt",
+        "sha256": "cc36dd53b88f8c7f138b9708e0c4b598816e4e52c7e252859e67e1e7edbcf117"
+      },
+      {
+        "path": "licenses/fonts/kalam/OFL.txt",
+        "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f"
+      },
+      {
+        "path": "licenses/fonts/lora/OFL.txt",
+        "sha256": "1d9a970809ac804b582a6ce7f0ebc4e7fefcbfd7ff6299cad35ee656a21be716"
+      },
+      {
+        "path": "licenses/fonts/orelega-one/OFL.txt",
+        "sha256": "14c21a0a12187e4d5e83914ffb2c976cc0f616ce1e0da80cb1f5a80f6a9b8709"
+      },
+      {
+        "path": "licenses/fonts/poppins/OFL.txt",
+        "sha256": "6be04893d770899a015649c7aa3b582f871b272f8747a92b78b17c3e5c8b2573"
+      },
+      {
+        "path": "licenses/fonts/source-code-pro/OFL.txt",
+        "sha256": "cb30d3086a8b3ce0b9e3690bf48d6620402b61160bc658076f95180ccd9e9dae"
+      },
+      {
+        "path": "licenses/fonts/source-serif-4/OFL.txt",
+        "sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9"
+      },
+      {
+        "path": "licenses/fonts/space-mono/OFL.txt",
+        "sha256": "8e4ee42b2553e1e01504e61cb0d46d148cd8c9e5eacaa3622a7df2d4f2955b9f"
+      }
+    ]
+  }
 }

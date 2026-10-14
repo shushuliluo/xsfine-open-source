@@ -1,6 +1,6 @@
 # 第三方组件许可通知
 
-本通知适用于以下组件：
+以下 PDF 组件采用本节所述许可证：
 
 - `@toeverything/pdfium`，版本 `0.1.1`
 - `@toeverything/pdf-viewer`，版本 `0.1.1`
@@ -25,3 +25,7 @@
 PDFium 引擎及其依赖按各自许可证授权，不能统一视为 MPL-2.0 组件。
 
 [PDFium 许可参考文本](licenses/reference/PDFium-chromium-6666-LICENSE.txt) 来自官方提交 `94fb006b18bec0f1c18fa0d1692214a46ab88442`，对应上游构建脚本默认分支。该文本仅描述这一参考版本，不代表 npm WASM 发布文件中全部依赖的许可证清单。源码与构建环境的覆盖范围见 [README](README.md#源码范围)。
+
+## 字体
+
+字体按各自的 SIL Open Font License 1.1 授权。完整许可和版权记录见[字体许可目录](licenses/fonts)；它们不适用上面的 MPL-2.0 通知。具体字体是否包含于某一应用版本，以该版本随附的通知为准。

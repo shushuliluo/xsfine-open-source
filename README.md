@@ -34,6 +34,10 @@ f1e81f940ba683a6ba9ca776e94a5d1883a45d4ec0276b52f1a6b0ba69bbfd04
 
 组件的授权条款、版权声明及源码获取说明见 [NOTICE.md](NOTICE.md)；MPL-2.0 全文见 [licenses/MPL-2.0.txt](licenses/MPL-2.0.txt)。使用、修改或分发组件时，请遵守对应文件及组件的许可证。第三方组件的版权归各自权利人所有。
 
+## 字体许可
+
+Inter、Kalam、Poppins 等字体的版权与完整 OFL 文本见[字体许可目录](licenses/fonts)。该目录提供许可通知，不包含字体文件。
+
 ## 源码范围
 
 这里收录的是 `pdfium-builder` 项目及其三个 npm 包对应的上游源码快照。PDFium 引擎源码和构建工具链由上游构建脚本另行获取，不包含在这个快照中。

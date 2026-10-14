@@ -1,0 +1,235 @@
+Font copyright notices extracted from the bundled font name tables.
+Font bytes are unchanged. See each family OFL.txt for the full license.
+Source Han Sans is covered by the notice accompanying its own distribution.
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/BebasNeue-Light.woff2
+"Copyright \u0004 2010 by Ryoichi Tsunekawa. All rights reserved."
+License metadata: ____________________________________________________________________________________________________
+    _____     _     _    __      ____      _   _     __        ______    _     _    ____      _____ 
+    /    )    /    /     / |     /    )    /  /|     / |         /       |    /     /    )    /    '
+---/----/----/___ /-----/__|----/___ /----/| /-|----/__|--------/--------|---/-----/____/----/__----
+  /    /    /    /     /   |   /    |    / |/  |   /   |       /         |  /     /         /       
+_/____/____/____/_____/____|__/_____|___/__/___|__/____|______/__________|_/_____/_________/____ ___
+                                                                          /                         
+                                                                      (_ /     DHARMA TYPE FREE FONTs
+
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1
+
+FAQ
+
+Q_ Can I use this for a commercial product?
+A_ Yes
+
+Q_ Can I use this on a web page via css @font-face?
+A_ Yes
+
+Q_ Can I donate $ to you?
+A_ Yes, You can! ( Paypal: info@dharmatype.com )
+
+
+
+Contact_______________________________
+
+info@dharmatype.com
+
+Dharma Type (http://dharmatype.com)
+  |
+  |___ Flat it type foundry
+  |
+  |___ Prop-a-ganda
+  |
+  |___ Holiday Type
+______________________________________
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/BebasNeue-Regular.woff2
+"Copyright 2019 The Bebas Neue Project Authors (https://github.com/dharmatype/Bebas-Neue)"
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/Inter-Italic.woff2
+"Copyright 2017-2019 The Inter project authors"
+License metadata: OFL 1.1 (SIL Open Font License, Version 1.1)
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/Inter-Light-BETA.woff2
+"Copyright 2017-2019 The Inter project authors"
+License metadata: OFL 1.1 (SIL Open Font License, Version 1.1)
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/Inter-LightItalic-BETA.woff2
+"Copyright 2017-2019 The Inter project authors"
+License metadata: OFL 1.1 (SIL Open Font License, Version 1.1)
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/Inter-Regular.woff2
+"Copyright 2017-2019 The Inter project authors"
+License metadata: OFL 1.1 (SIL Open Font License, Version 1.1)
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/Inter-SemiBold.woff2
+"Copyright 2017-2019 The Inter project authors"
+License metadata: OFL 1.1 (SIL Open Font License, Version 1.1)
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/Inter-SemiBoldItalic.woff2
+"Copyright 2017-2019 The Inter project authors"
+License metadata: OFL 1.1 (SIL Open Font License, Version 1.1)
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/Kalam-Bold.woff2
+"Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/Kalam-Light.woff2
+"Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/Kalam-Regular.woff2
+"Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/Lora-Bold.woff2
+"Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic), with Reserved Font Name \"Lora\"."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/Lora-BoldItalic.woff2
+"Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic), with Reserved Font Name \"Lora\"."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/Lora-Italic.woff2
+"Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic), with Reserved Font Name \"Lora\"."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/Lora-Regular.woff2
+"Copyright 2011 The Lora Project Authors (https://github.com/cyrealtype/Lora-Cyrillic), with Reserved Font Name \"Lora\"."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/OrelegaOne-Regular.woff2
+"Copyright 2021 The Orelega One Project Authors (https://github.com/JapanYoshi/Orelega)"
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/Poppins-Italic.woff2
+"Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/Poppins-Light.woff2
+"Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/Poppins-LightItalic.woff2
+"Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/Poppins-Medium.woff2
+"Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/Poppins-Regular.woff2
+"Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/Poppins-SemiBold.woff2
+"Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/core/public/fonts/Poppins-SemiBoldItalic.woff2
+"Copyright 2014-2017 Indian Type Foundry (info@indiantypefoundry.com)"
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/ibm-plex-mono/IBMPlexMono-Bold.ttf
+"Copyright 2017 IBM Corp. All rights reserved."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/ibm-plex-mono/IBMPlexMono-BoldItalic.ttf
+"Copyright 2017 IBM Corp. All rights reserved."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/ibm-plex-mono/IBMPlexMono-Italic.ttf
+"Copyright 2017 IBM Corp. All rights reserved."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/ibm-plex-mono/IBMPlexMono-Regular.ttf
+"Copyright 2017 IBM Corp. All rights reserved."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/inter/Inter-VariableFont_slnt,wght.ttf
+"Copyright 2020 The Inter Project Authors (https://github.com/rsms/inter)"
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/kalam/Kalam-Bold.ttf
+"Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/kalam/Kalam-Light.ttf
+"Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/kalam/Kalam-Regular.ttf
+"Copyright (c) 2014 Indian Type Foundry (info@indiantypefoundry.com)"
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/source-code-pro/SourceCodePro-Italic-VariableFont_wght.ttf
+"© 2010 - 2020 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/source-code-pro/SourceCodePro-VariableFont_wght.ttf
+"© 2010 - 2020 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/source-serif-4/SourceSerif4-Bold.ttf
+"© 2014 - 2021 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/source-serif-4/SourceSerif4-BoldItalic.ttf
+"© 2014 - 2021 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/source-serif-4/SourceSerif4-Italic-VariableFont_opsz,wght.ttf
+"© 2014 - 2021 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/source-serif-4/SourceSerif4-Italic.ttf
+"© 2014 - 2021 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/source-serif-4/SourceSerif4-Light.ttf
+"© 2014 - 2021 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/source-serif-4/SourceSerif4-LightItalic.ttf
+"© 2014 - 2021 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/source-serif-4/SourceSerif4-Medium.ttf
+"© 2014 - 2021 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/source-serif-4/SourceSerif4-MediumItalic.ttf
+"© 2014 - 2021 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/source-serif-4/SourceSerif4-Regular.ttf
+"© 2014 - 2021 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/source-serif-4/SourceSerif4-SemiBold.ttf
+"© 2014 - 2021 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/source-serif-4/SourceSerif4-SemiBoldItalic.ttf
+"© 2014 - 2021 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/source-serif-4/SourceSerif4-VariableFont_opsz,wght.ttf
+"© 2014 - 2021 Adobe Systems Incorporated (http://www.adobe.com/), with Reserved Font Name ‘Source’."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL. This Font Software is distributed on an ‘AS IS’ BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software.
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/space-mono/SpaceMono-Bold.ttf
+"Copyright 2016 Google Inc. All Rights Reserved."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/space-mono/SpaceMono-BoldItalic.ttf
+"Copyright 2016 Google Inc. All Rights Reserved."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/space-mono/SpaceMono-Italic.ttf
+"Copyright 2016 Google Inc. All Rights Reserved."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+frontend/affine-upstream/packages/frontend/component/src/fonts/space-mono/SpaceMono-Regular.ttf
+"Copyright 2016 Google Inc. All Rights Reserved."
+License metadata: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL
